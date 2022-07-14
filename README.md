@@ -6,8 +6,8 @@ Some were for problem solving or just to learn new things.
 <h2>Projects</h2>
 
 <ul>
-  <li><a href="./HTML_Project/Index.html">Motorcycles</a></li>
-  <li><a href="./Bootstrap4_Project/travel.html">Travel</a></li>
+  <li><a href="https://github.com/nmepani87/HTML-and-CSS-tta/tree/main/HTML_Project">Motorcycles</a></li>
+  <li><a href="https://github.com/nmepani87/HTML-and-CSS-tta/tree/main/bootstrap4_project">Travel</a></li>
 </ul>
 
 <h3>Motorcycle</h3>
