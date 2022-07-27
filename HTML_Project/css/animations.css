@@ -60,6 +60,7 @@
     max-width: 100%;
     width: 300px;
     height: 169px;
+    z-index: -4;
 }
 
 .photo-overlay {
@@ -74,6 +75,7 @@
     justify-content: center; /* Centers text inside .photo-overlay */
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
+    z-index: -1; /* Needs for modal to work */
 }
 
 .white-head {

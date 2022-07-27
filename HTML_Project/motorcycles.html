@@ -6,10 +6,11 @@
 		<link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
 		<link rel="stylesheet" href="./css/shared.css">
 		<link rel="stylesheet" href="./css/animations.css">
+		<link rel="stylesheet" href="./css/motorcycles_modal.css">
+		<script src="./js/motorcycles.js" defer></script>
 	</head>
 
 	<body>
-
 		<!-- Navigation -->
 		<div class="wrap">
 			<div class="menu-container">
@@ -28,7 +29,7 @@
 		<div id="home">
 			<div class="homecontainer">
 				<video id="video" autoplay muted loop width="100%" height="100%">
-					<source src="../HTML_Project/Videos/Home_Video.mp4" type="video/mp4" />
+					<source src="./Videos/Home_Video.mp4" type="video/mp4" />
 			   </video>
 				<div class="text-center">
 					<span class="head-main">CROTCH&nbsp;ROCKETS</span>
@@ -46,7 +47,8 @@
 				<!-- Photo Container 1 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_1.png" alt="2022 MV Agusta SuperVeloce 800 AGO" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_1.png" alt="2022 MV Agusta SuperVeloce 800 AGO" width="300" height="169" 
+						onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2022 MV Agusta SuperVeloce 800 AGO<br>
@@ -59,7 +61,8 @@
 				<!-- Photo Container 2 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_2.png" alt="2022 Ducati V4 Superleggera" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_2.png" alt="2022 Ducati V4 Superleggera" width="300" height="169" 
+						onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2022 Ducati V4 Superleggera <br>
@@ -72,7 +75,8 @@
 				<!-- Photo Container 3 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_3.png" alt="2016 Aprillia RSV4 RF" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_3.png" alt="2016 Aprillia RSV4 RF" width="300" height="169" 
+						onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2016 Aprillia RSV4 RF<br>
@@ -85,10 +89,11 @@
 				<!-- Photo Container 4 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_4.png" alt="2020 Aston Martin/Brough Superior AMB 001" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_4.png" alt="2020 Aston Martin/Brough Superior AMB 001" width="300" height="169" 
+						onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
-							<p>2020 Aston Martin AMB& 001<br>
+							<p>2020 Aston Martin AMB 001<br>
 								To buy please fill in the contact us form and a representative will be in touch</p>
 						</div>
 					</div>
@@ -98,7 +103,8 @@
 				<!-- Photo Container 5 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_5.png" alt="2020 MV Agusta F4 Claudio" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_5.png" alt="2020 MV Agusta F4 Claudio" width="300" height="169" 
+						onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2020 MV Agusta F4 Claudio<br>
@@ -111,7 +117,8 @@
 				<!-- Photo Container 6 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_6.png" alt="2021 Ducati Diavel 1260 Lamborghini" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_6.png" alt="2021 Ducati Diavel 1260 Lamborghini" width="300" height="169" 
+						onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2021 Ducati Diavel 1260 Lamborghini<br>
@@ -124,10 +131,11 @@
 				<!-- Photo Container 7 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_7.png" alt="2013 Ecosse Founder&#39;s Edition Ti XX" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_7.png" alt="2013 Ecosse Founder&#39;s Edition Ti XX" width="300" height="169"
+						onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
-							<p>2013 Ecosse Founder&#39s Edition Ti XX<br>
+							<p>2013 Ecosse Founder&#39;s Edition Ti XX<br>
 								To buy please fill in the contact us form and a representative will be in touch</p>
 						</div>
 					</div>
@@ -137,7 +145,8 @@
 				<!-- Photo Container 8 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_8.png" alt="2010 Icon Sheene" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_8.png" alt="2010 Icon Sheene" width="300" height="169"
+						onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2010 Icon Sheene<br>
@@ -150,7 +159,8 @@
 				<!-- Photo Container 9 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./Images/Thumb/thumbnail_9.png" alt="2022 Kawasaki Ninja H2R" width="300" height="169">
+						<img src="./Images/Thumb/thumbnail_9.png" alt="2022 Kawasaki Ninja H2R" width="300" height="169"
+						onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2022 Kawasaki Ninja H2R<br>
@@ -159,10 +169,106 @@
 					</div>
 				</div>
 				<!-- End of Photo Container 9-->
-
 				</div>
 			</div>
 		</section>
+
+		<!-- Start of Modal content-->
+		<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+				<div class="mySlides">
+					<div class="numbertext">1 / 9</div>
+					<img src="./Images/FullSize/bigpic_1.png" alt="2022 MV Agusta SuperVeloce 800 AGO">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 9</div>
+					<img src="./Images/FullSize/bigpic_2.png" alt="2022 Ducati V4 Superleggera">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 9</div>
+					<img src="./Images/FullSize/bigpic_3.jpeg" alt="2016 Aprillia RSV4 RF">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 9</div>
+					<img src="./Images/FullSize/bigpic_4.png" alt="2020 Aston Martin AMB 001">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">5 / 9</div>
+					<img src="./Images/FullSize/bigpic_5.jpeg" alt="2020 MV Agusta F4 Claudio">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">6 / 9</div>
+					<img src="./Images/FullSize/bigpic_6.jpeg" alt="2021 Ducati Diavel 1260 Lamborghini">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">7 / 9</div>
+					<img src="./Images/FullSize/bigpic_7.jpeg" alt="2013 Ecosse Founder&#39;s Edition Ti XX">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">8 / 9</div>
+					<img src="./Images/FullSize/bigpic_8.jpeg" alt="2010 Icon Sheene">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">9 / 9</div>
+					<img src="./Images/FullSize/bigpic_9.jpeg" alt="2022 Kawasaki Ninja H2R">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_1.png"
+					onclick="currentSlide(1)" alt="2022 MV Agusta SuperVeloce 800 AGO">
+				</div>
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_2.png"
+					onclick="currentSlide(2)" alt="2022 Ducati V4 Superleggera">
+				</div>
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_3.jpeg"
+					onclick="currentSlide(3)" alt="2016 Aprillia RSV4 RF">
+				</div>
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_4.png"
+					onclick="currentSlide(4)" alt="2020 Aston Martin AMB 001">
+				</div>
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_5.jpeg"
+					onclick="currentSlide(5)" alt="2020 MV Agusta F4 Claudio">
+				</div>
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_6.jpeg"
+					onclick="currentSlide(6)" alt="2021 Ducati Diavel 1260 Lamborghini">
+				</div>
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_7.jpeg"
+					onclick="currentSlide(7)" alt="2013 Ecosse Founder&#39;s Edition Ti XX">
+				</div>
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_8.jpeg"
+					onclick="currentSlide(8)" alt="2010 Icon Sheene">
+				</div>
+				<div class="column">
+					<img class="imageslide cursor" src="./Images/FullSize/bigpic_9.jpeg"
+					onclick="currentSlide(9)" alt="2022 Kawasaki Ninja H2R">
+				</div>
+			</div>
+		</div>
+				
 		<!-- End of Gallery -->
 
 		<!-- Contact -->
