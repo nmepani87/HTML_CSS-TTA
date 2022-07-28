@@ -48,9 +48,9 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_1.png" alt="2022 MV Agusta SuperVeloce 800 AGO" width="300" height="169" 
-						onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-						<div class="photo-overlay">
-							<h3>Click to enlarge</h3>
+						 class="hover-shadow cursor">
+						<div class="photo-overlay" onclick="openModal();currentSlide(1)">
+							<h3 >Click to enlarge</h3>
 							<p>2022 MV Agusta SuperVeloce 800 AGO<br>
 								To buy please fill in the contact us form and a representative will be in touch</p>
 						</div>
@@ -62,8 +62,8 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_2.png" alt="2022 Ducati V4 Superleggera" width="300" height="169" 
-						onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-						<div class="photo-overlay">
+						 class="hover-shadow cursor">
+						<div class="photo-overlay" onclick="openModal();currentSlide(2)">
 							<h3>Click to enlarge</h3>
 							<p>2022 Ducati V4 Superleggera <br>
 								To buy please fill in the contact us form and a representative will be in touch</p>
@@ -76,8 +76,8 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_3.png" alt="2016 Aprillia RSV4 RF" width="300" height="169" 
-						onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-						<div class="photo-overlay">
+						class="hover-shadow cursor">
+						<div class="photo-overlay" onclick="openModal();currentSlide(3)" >
 							<h3>Click to enlarge</h3>
 							<p>2016 Aprillia RSV4 RF<br>
 								To buy please fill in the contact us form and a representative will be in touch</p>
@@ -90,8 +90,8 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_4.png" alt="2020 Aston Martin/Brough Superior AMB 001" width="300" height="169" 
-						onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-						<div class="photo-overlay">
+						class="hover-shadow cursor">
+						<div class="photo-overlay" onclick="openModal();currentSlide(4)">
 							<h3>Click to enlarge</h3>
 							<p>2020 Aston Martin AMB 001<br>
 								To buy please fill in the contact us form and a representative will be in touch</p>
@@ -104,7 +104,7 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_5.png" alt="2020 MV Agusta F4 Claudio" width="300" height="169" 
-						onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+						 class="hover-shadow cursor" onclick="openModal();currentSlide(5)">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2020 MV Agusta F4 Claudio<br>
@@ -118,8 +118,8 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_6.png" alt="2021 Ducati Diavel 1260 Lamborghini" width="300" height="169" 
-						onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-						<div class="photo-overlay">
+						class="hover-shadow cursor">
+						<div class="photo-overlay" onclick="openModal();currentSlide(6)">
 							<h3>Click to enlarge</h3>
 							<p>2021 Ducati Diavel 1260 Lamborghini<br>
 								To buy please fill in the contact us form and a representative will be in touch</p>
@@ -132,7 +132,7 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_7.png" alt="2013 Ecosse Founder&#39;s Edition Ti XX" width="300" height="169"
-						onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+						class="hover-shadow cursor" onclick="openModal();currentSlide(7)">
 						<div class="photo-overlay">
 							<h3>Click to enlarge</h3>
 							<p>2013 Ecosse Founder&#39;s Edition Ti XX<br>
@@ -146,8 +146,8 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_8.png" alt="2010 Icon Sheene" width="300" height="169"
-						onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-						<div class="photo-overlay">
+						class="hover-shadow cursor" >
+						<div class="photo-overlay" onclick="openModal();currentSlide(8)">
 							<h3>Click to enlarge</h3>
 							<p>2010 Icon Sheene<br>
 								To buy please fill in the contact us form and a representative will be in touch</p>
@@ -160,8 +160,8 @@
 				<div class="photo-container">
 					<div class="photo">
 						<img src="./Images/Thumb/thumbnail_9.png" alt="2022 Kawasaki Ninja H2R" width="300" height="169"
-						onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
-						<div class="photo-overlay">
+						class="hover-shadow cursor">
+						<div class="photo-overlay" onclick="openModal();currentSlide(9)">
 							<h3>Click to enlarge</h3>
 							<p>2022 Kawasaki Ninja H2R<br>
 								To buy please fill in the contact us form and a representative will be in touch  </p>
@@ -175,7 +175,7 @@
 
 		<!-- Start of Modal content-->
 		<div id="myModal" class="modal">
-		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<span id="Close" class="close cursor" onclick="closeModal()">&times;</span>
 			<div class="modal-content">
 
 				<div class="mySlides">
