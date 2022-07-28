@@ -1,0 +1,10 @@
+.overlay {
+    position:absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center;
+    top:35%;
+    left:33%;
+    z-index:1;
+}
